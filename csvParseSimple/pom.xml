@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>kr.dja</groupId>
-	<artifactId>csvParseSample</artifactId>
+	<artifactId>rladpqls100</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
 	<properties>
@@ -87,10 +87,10 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>kr.dja.csvParseSample.CSVParseSampleCore</mainClass>
+							<mainClass>kr.dja.rladpqls100.CSVParseSampleCore</mainClass>
 							<addClasspath>true</addClasspath>
 							<addExtensions>true</addExtensions>
-							<packageName>kr.dja.csvParseSample</packageName>
+							<packageName>kr.dja.rladpqls100</packageName>
 						</manifest>
 					</archive>
 				</configuration>
